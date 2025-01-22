@@ -4,19 +4,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "migrate": "npx prisma migrate dev"
+    "migrate": "npx prisma migrate dev",
+    "start": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.1.0",
+    "@react-email/components": "0.0.32",
     "@types/bcrypt": "^5.0.2",
     "@types/bcryptjs": "^2.4.6",
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
     "@types/dotenv": "^8.2.3",
     "@types/jsonwebtoken": "^9.0.7",
+    "@types/nodemailer": "^6.4.17",
     "@types/passport-google-oauth20": "^2.0.16",
     "@types/react": "^19.0.7",
     "@types/validator": "^13.12.2",
@@ -34,6 +37,7 @@
     "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.9.16",
     "process": "^0.11.10",
+    "react-mail": "^0.0.1",
     "styled-components": "^6.1.14"
   },
   "devDependencies": {

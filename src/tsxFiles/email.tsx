@@ -4,6 +4,7 @@ import { render } from "@react-email/render";
 import OtpEmail from "./otpEmail";
 import React from "react";
 import WelcomeEmail from "./welcome";
+
 dotenv.config();
 interface SendEmailOptions {
   to: string;
